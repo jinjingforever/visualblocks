@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+  @license
+  Copyright 2023 Google LLC. All Rights Reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  http://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  =============================================================================
+  -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Visual blocks library demo 1</title>
+
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 100%;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .btns-container {
+        height: 48px;
+        padding: 0 12px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .vb-container {
+        margin: 12px;
+        flex-grow: 1;
+        border: 1px solid #ccc;
+      }
+
+      button {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="btns-container">
+      <button id="btn-load-from-json-url">
+        Load from JSON url (laser hand)
+      </button>
+      <button id="btn-load-from-json">
+        Load from JSON (color pop)
+      </button>
+      <button id="btn-reset">Reset</button>
+    </div>
+
+    <div class="vb-container"></div>
+
+	  <script src="./script.js"></script>
+  </body>
+</html>

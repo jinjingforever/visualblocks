@@ -1,0 +1,27 @@
+{
+  "name": "visualblocks",
+  "version": "0.0.1",
+  "description": "Visual blocks JS client library",
+  "browser": "dist/visualblocks.js",
+  "jsdelivr": "dist/visualblocks.js",
+  "unpkg": "dist/visualblocks.js",
+  "types": "dist/visualblocks.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/google/visualblocks.git",
+    "directory": "js"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "rxjs": "7.8.1"
+  },
+  "scripts": {
+    "build": "../../scripts/build-js-package.sh"
+  },
+  "files": [
+    "dist/**/**",
+    "!**/*.tsbuildinfo",
+    "LICENSE",
+    "README.md"
+  ]
+}
