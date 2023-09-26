@@ -3,6 +3,8 @@
 This library allows you to create a Visual Blocks runner panel inside your
 application and load a specific pipeline.
 
+![screenshot](./vb_runner.png)
+
 ## Setup
 
 ### npm
