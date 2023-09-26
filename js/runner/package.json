@@ -1,5 +1,5 @@
 {
-  "name": "visualblocks",
+  "name": "@visualblocks/runner",
   "version": "0.0.1",
   "description": "Visual blocks JS client library",
   "browser": "dist/visualblocks.js",

@@ -15,9 +15,9 @@
  * =============================================================================
  */
 
-import 'visualblocks';
+import '@visualblocks/runner';
 
-import type {VisualBlocksInstance} from 'visualblocks';
+import type {VisualBlocksInstance} from '@visualblocks/runner';
 
 let vbInstance: VisualBlocksInstance|undefined = undefined;
 

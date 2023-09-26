@@ -4,14 +4,14 @@
   "main": "script.js",
   "license": "Apache-2.0",
   "dependencies": {
-    "visualblocks": "file:../package"
+    "@visualblocks/runner": "file:../runner"
   },
   "devDependencies": {
     "esbuild": "0.19.3",
     "typescript": "5.2.2"
   },
   "scripts": {
-    "build-deps": "cd ../package && yarn build",
+    "build-deps": "cd ../runner && yarn build",
     "build": "../../scripts/build-js-demo.sh",
     "build-all": "yarn build-deps && yarn --force && yarn build"
   }
